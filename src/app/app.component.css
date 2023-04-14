@@ -1,0 +1,15 @@
+
+
+p{color: blueviolet;}
+
+section{
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:raw;
+        justify-content:center;
+        background-color: rgb(243, 243, 243);
+        border-radius : 5px;
+
+}
+

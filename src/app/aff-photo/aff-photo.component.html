@@ -1,0 +1,19 @@
+
+<section class="cardPhoto">
+    <div class="card-top" >
+        <h1>{{photoData.name}}
+        </h1>
+        <p class="Tx-long S07">{{photoData.description}}</p>
+        <p class="S07">Date de création: {{photoData.createDate|date}}</p>
+        <img    [src]="photoData.lienImage" [alt]="photoData.name" width="300px" height="200px"  >
+    </div>
+    
+    <div class="card-botom">
+        <button (click)=onLiked()> 
+        <!-- boutons avec icones en fonction de liked = true or false -->
+        <span *ngIf="photoData.liked===0"><i class="fa-regular fa-heart"></i></span>
+        <span *ngIf="photoData.liked===1"><i class="fa-solid fa-heart-circle-check"></i></span>
+        </button>
+        <span class="S07">Nb de votes: {{photoData.snap}}</span>
+</div>
+</section>

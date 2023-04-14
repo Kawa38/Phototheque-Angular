@@ -1,0 +1,58 @@
+/* en suspend : centrer la description verivallement */
+
+/* generaux */
+img{width :100%
+}
+
+h1{    
+text-align:center ; 
+color:rgb(44, 1, 87);
+margin: 5px;
+}
+p{
+    color: rgb(42, 9, 74);
+    text-align: center;
+    margin:0;}
+    
+button{}
+
+.S07{
+    font-size: 0.7em;
+}
+
+.Tx-long{
+    height: 100px; 
+    background-color: rgba(0, 0, 0, 0);
+    text-align: justify;
+
+}
+
+/* par zone */
+.cardPhoto {
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    border: rgb(154, 154, 154) 2px solid;
+    margin: 10px;
+    padding : 10px;
+    border-radius: 10px;
+}
+
+.card-botom{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin : 10px 0 0px 0;
+    /* margin:auto; */
+
+}
+
+.card-top{
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
